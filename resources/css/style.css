@@ -1,0 +1,360 @@
+/*===========Style css============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.8rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul li{
+    list-style: none;
+}
+/*Heading text*/
+h1{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*==================*/
+/*reuse section*/
+/*==================*/
+.row{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+/*button section*/
+.btn:link,
+.btn:visited,
+.btn {
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 5.0rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-bottom: .2rem solid #09060d;
+    border-radius: .1rem;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 4rem;
+       
+
+}
+section{
+    padding: 4rem 0;
+    display: block;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: .8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+h2::after{
+    content: "";
+    width: 8rem;
+    height: .3rem;
+    background: #09987f;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+
+}
+.box h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: .8rem;
+
+}
+/*paragrahp*/
+.litle-text{
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.3rem;;
+}
+
+
+
+
+
+
+/*==================*/
+/*Header section*/
+/*==================*/
+header{
+    background: url(../image/hero.jpg);
+    min-height:35rem;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper{
+    background: #87509c;
+    min-height:35rem;
+    background: rgba(135, 80, 156, 0.9);
+}
+.logo{
+    height: 3rem;
+    width: auto;
+    margin-top: 3rem;
+    float: left;
+}
+/*nav item */
+.nav-item{
+    float: right;
+    margin-top: 2.9rem;
+}
+.nav-item li{
+    display: inline-block;
+    margin-left: .3rem;
+   
+}
+.nav-item li:first-child{
+    margin-left: 0;
+}
+.nav-item li a:link,
+.nav-item li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: .3rem 1rem;
+    border-radius: .1rem;
+    display: inline-block;
+}
+.nav-item li:hover a:link,
+.nav-item li:hover a:visited{
+    background: rgba(100, 58, 121, 1);
+    
+}
+.active{
+    background: rgba(100, 58, 121, 1);
+}
+.hero-text-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ 
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background: #EB7D4B;
+    border-color: #c86e0e;
+}
+.services{
+    background: linear-gradient(rgba(23, 194, 164, 0.9), rgba(23, 194, 164, 0.9)), url(../image/ser.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+.service-icon{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+
+.box p{
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+/*==================*/
+/*Team section*/
+/*==================*/
+.team-section{
+    background: linear-gradient(rgba(231, 241, 248, 0.7), rgba(231, 241, 248, 0.8)  ),url("../image/pattern.png");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.team-section h2{
+    color: #3c4761;
+}
+.team-section h2::after{
+    background: rgba(0, 0, 0, 0.15);
+}
+.team-section p{
+    text-align: center;
+}
+.team-member{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+}
+.team-section h3{
+    color: #3c4761;
+    padding-bottom: 0;
+}
+.role{
+    color:#1194bf;
+    font-weight: 400;
+    margin: 0;
+}
+.team-section p{
+    padding-top: .8rem;
+    color: #3c4761;
+}
+.social-link{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.social-link ul li{
+    display: inline-block;
+    
+ 
+}
+.social-link ul li a:link{
+      background: #bdd1df;
+      width: 2.2rem;
+      height: 2.2rem;
+      display: block;
+      font-size: 1rem;
+      padding: 0.2rem;
+      border-radius: 50%;
+      margin: 0 .2rem;
+      color: #fff;
+      transition: .3s;
+}
+.social-link ul li a:hover{
+    background: #0583db;
+    width: 2.4rem;
+    height: 2.4rem;
+
+
+
+}
+/*==================*/
+/*Skill section*/
+/*==================*/
+.skill-section{
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),url(../image/skill.jpg);
+    text-align: center;
+    color: #3c4761;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.skill-section h2{
+    color: #3c4761;
+    
+}
+.skill-section h3{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.skill-section h2::after{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.skill-section .box{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.skill-text{
+    max-width: 60%;
+    margin: auto;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #52514f;
+    
+}
+svg.radial-progress circle{
+    stroke-width: 6;
+}
+svg.radial-progress text{
+    fill: #52514f;
+    font-size: 1rem;
+    
+}
+svg.web-design circle{
+    stroke:#30BAE7;
+}
+svg.web-development circle{
+    stroke:#D74680;
+}
+svg.python-development circle{
+    stroke:#15C7A8;
+}
+svg.graphics-design circle{
+    stroke:#EB7D4B;
+}
+
+.portfolio-section .col:nth-child(3){
+    margin-left: 0;
+} 
+.portfolio-section h2{
+    color: #393939;
+}
+.portfolio-section{
+    background: #FFDD99;
+    text-align: center;
+}
+
+.portfolio-section h2::after{
+    background: #D9BC82;
+}
+.portfolio-section p{
+    max-width: 60%;
+    font-size: 1.3rem;
+    margin: auto;
+}
+.button-area button{
+    margin-top: 2.5rem;
+    width: 7rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: .2rem;
+    border: none;
+    background: #D9BC82;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    transition: .5s;
+
+    
+}
+.button-area button:hover{
+    background: #fff;
+    cursor:pointer;
+    box-shadow: inset 0rem .3rem .3rem #977738;
+
+}
+.portfolio-section .box{
+    margin-top: 3rem;
+}
+.portfolio-img{
+    width: 100%;
+    
+    
+}
+.portfolio-section .mixitup-control-active{
+    background: #fff;
+}

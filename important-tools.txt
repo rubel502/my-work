@@ -1,0 +1,12 @@
+css vendors:
+----------------------------------------
+font awesome
+Normalize css
+Responsive Grid System
+
+----------------------------------------
+js vendors:
+-----------------------------------------
+html5 shiv
+respond js
+selectivizr js
